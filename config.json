@@ -1,0 +1,31 @@
+{
+  "sources": [
+    {
+      "size": "k",
+      "priority": 1,
+      "url": "https://www.flickr.com/photos/alwbutler/"
+    },
+    {
+      "size": "k",
+      "priority": 1,
+      "url": "https://www.flickr.com/photos/inestakesphotos/"
+    },
+    {
+      "size": "k",
+      "priority": 3,
+      "url": "https://www.flickr.com/photos/stuckincustoms/"
+    },
+    {
+      "size": "k",
+      "priority": 1,
+      "url": "https://www.flickr.com/photos/69804513@N05/"
+    }
+  ],
+  "command": [
+    "gsettings",
+    "set",
+    "org.gnome.desktop.background",
+    "picture-uri",
+    "%s"
+  ]
+}
